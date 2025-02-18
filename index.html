@@ -24,6 +24,7 @@
             align-items: center;
             text-align: center;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:100px;
         }
 
         h1 {
@@ -42,8 +43,8 @@
         }
 
         .fingerprint-btn {
-            width: 120px;
-            height: 120px;
+            width: 190px;
+            height: 190px;
             background: url('file:///C:/Users/MILIND/Downloads/.vscode/fingerprint.webp') no-repeat center;
             background-size: contain;
             border: none;
@@ -57,7 +58,7 @@
         }
 
         .fingerprint-btn:active {
-            transform: scale(0.9);
+            transform: scale(1.9);
         }
 
         .fingerprint-btn.scanning {
@@ -105,8 +106,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Fingerprint Authentication</h1>
-        <p>Please scan your fingerprint to enter the website.</p>
+        <h1 style="font-size: 50px;">Fingerprint Authentication</h1>
+        <p style="font-size: 25px;">Please touch your thumb for once on scanner to get into the website</p>
         <button class="fingerprint-btn" id="scanBtn"></button>
         <div class="loader" id="loader">Scanning...</div>
     </div>
@@ -127,3 +128,4 @@
     </script>
 </body>
 </html>
+
